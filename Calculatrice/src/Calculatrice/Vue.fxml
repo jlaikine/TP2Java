@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="458.0" prefWidth="413.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/19" fx:controller="Calculatrice.VueController">
+   <children>
+      <TextField fx:id="ecran" layoutX="32.0" layoutY="32.0" prefHeight="63.0" prefWidth="355.0" />
+      <Button id="egale" fx:id="btnClickMe" layoutX="302.0" layoutY="368.0" mnemonicParsing="false" onAction="#clickMe" prefHeight="54.0" prefWidth="80.0" text="=" />
+      <Button id="plus" fx:id="btnClickMe" layoutX="214.0" layoutY="368.0" mnemonicParsing="false" onAction="#clickMe" prefHeight="54.0" prefWidth="80.0" text="+" />
+      <Button id="point" fx:id="btnClickMe" layoutX="124.0" layoutY="368.0" mnemonicParsing="false" onAction="#clickMe" prefHeight="54.0" prefWidth="80.0" text="." />
+      <Button id="zero" fx:id="btnClickMe" layoutX="33.0" layoutY="368.0" mnemonicParsing="false" onAction="#clickMe" prefHeight="54.0" prefWidth="80.0" text="0" />
+      <Button id="un" fx:id="btnClickMe" layoutX="33.0" layoutY="294.0" mnemonicParsing="false" onAction="#clickMe" prefHeight="54.0" prefWidth="80.0" text="1" />
+      <Button id="quatre" fx:id="btnClickMe" layoutX="33.0" layoutY="222.0" mnemonicParsing="false" onAction="#clickMe" prefHeight="54.0" prefWidth="80.0" text="4" />
+      <Button id="sept" fx:id="btnClickMe" layoutX="33.0" layoutY="149.0" mnemonicParsing="false" onAction="#clickMe" prefHeight="54.0" prefWidth="80.0" text="7" />
+      <Button id="deux" fx:id="btnClickMe" layoutX="124.0" layoutY="294.0" mnemonicParsing="false" onAction="#clickMe" prefHeight="54.0" prefWidth="80.0" text="2" />
+      <Button id="trois" fx:id="btnClickMe" layoutX="214.0" layoutY="294.0" mnemonicParsing="false" onAction="#clickMe" prefHeight="54.0" prefWidth="80.0" text="3" />
+      <Button id="moins" fx:id="btnClickMe" layoutX="302.0" layoutY="294.0" mnemonicParsing="false" onAction="#clickMe" prefHeight="54.0" prefWidth="80.0" text="-" />
+      <Button id="cinq" fx:id="btnClickMe" layoutX="124.0" layoutY="222.0" mnemonicParsing="false" onAction="#clickMe" prefHeight="54.0" prefWidth="80.0" text="5" />
+      <Button id="six" fx:id="btnClickMe" layoutX="214.0" layoutY="222.0" mnemonicParsing="false" onAction="#clickMe" prefHeight="54.0" prefWidth="80.0" text="6" />
+      <Button id="multiplier" fx:id="btnClickMe" layoutX="302.0" layoutY="222.0" mnemonicParsing="false" onAction="#clickMe" prefHeight="54.0" prefWidth="80.0" text="*" />
+      <Button id="huit" fx:id="btnClickMe" layoutX="124.0" layoutY="149.0" mnemonicParsing="false" onAction="#clickMe" prefHeight="54.0" prefWidth="80.0" text="8" />
+      <Button id="neuf" fx:id="btnClickMe" layoutX="214.0" layoutY="149.0" mnemonicParsing="false" onAction="#clickMe" prefHeight="54.0" prefWidth="80.0" text="9" />
+      <Button id="diviser" fx:id="btnClickMe" layoutX="302.0" layoutY="149.0" mnemonicParsing="false" onAction="#clickMe" prefHeight="54.0" prefWidth="80.0" text="/" />
+   </children>
+</AnchorPane>
